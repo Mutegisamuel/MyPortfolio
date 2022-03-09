@@ -368,19 +368,22 @@
   /* portfolio section */
 
   .content {
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     max-width: 800px;
+    margin-bottom: 0px;
   }
 
   .content-slide {
     margin-left: auto;
     margin-right: auto;
     max-width: 800px;
+    height: auto;
   }
 
   .content-slide img {
-    width: 70%;
+    width: 65%;
   }
 
   .fp-controlArrow.fp-next {
@@ -537,6 +540,16 @@
       font-size: 28px;
     }
 
+    .fp-controlArrow.fp-next {
+      border-color: transparent transparent transparent #FF6363 !important;
+      right: 5px !important;
+    }
+  
+    .fp-controlArrow.fp-prev {
+      border-color: transparent #FF6363 transparent transparent !important;
+      left: 5px !important;
+    }
+
   }
 
 /* loading screen animation */
@@ -610,7 +623,7 @@
     animation: 1s blink step-end infinite;
   }
 
-@keyframes "blink" {
+@keyframes blink {
   from, to {
     color: transparent;
   }
@@ -628,7 +641,7 @@
   }
 }
 
-@-webkit-keyframes "blink" {
+@-webkit-keyframes blink {
   from, to {
     color: transparent;
   }
@@ -637,7 +650,7 @@
   }
 }
 
-@-ms-keyframes "blink" {
+@-ms-keyframes blink {
   from, to {
     color: transparent;
   }
@@ -646,7 +659,7 @@
   }
 }
 
-@-o-keyframes "blink" {
+@-o-keyframes blink {
   from, to {
     color: transparent;
   }

@@ -16,7 +16,7 @@ $(document).ready(function() {
   })(jQuery);
 
   // input text for typing animation
-  $("#holder").writeText("ANDROID + FRONT-END DEVELOPER");
+  $("#holder").writeText("MOBILE + FULLSTACK DEVELOPER");
 
   // initialize wow.js
   new WOW().init();
@@ -66,7 +66,7 @@ $(document).ready(function() {
     navigationTooltips: ['home', 'about', 'portfolio', 'contact', 'connect'],
     anchors: ['home', 'about', 'portfolio', 'contact', 'connect'],
     menu: '#myMenu',
-    fitToSection: false,
+    fitToSection: true,
 
     afterLoad: function ( anchorLink, index){
       var loadedSection = $(this);
